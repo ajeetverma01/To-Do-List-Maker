@@ -36,3 +36,7 @@ body {
     justify-content: center;
     margin-bottom: 20px;
 }
+.to-do h2 img {
+    width: 30px;
+    margin-left: 10px;
+}
