@@ -40,3 +40,26 @@ body {
     width: 30px;
     margin-left: 10px;
 }
+.row {
+    display: flex;
+    align-items: center;
+    background: #292929;
+    border-radius: 30px;
+    padding: 12px;
+    margin-bottom: 20px;
+    box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.3), inset -4px -4px 8px rgba(255, 255, 255, 0.1);
+}
+
+input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 12px;
+    font-size: 16px;
+    color: white;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
