@@ -63,3 +63,19 @@ input {
 input::placeholder {
     color: rgba(255, 255, 255, 0.5);
 }
+button {
+    background: linear-gradient(135deg, #ff165d, #ff477e);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(255, 22, 93, 0.5);
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(255, 22, 93, 0.7);
+}
