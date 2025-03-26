@@ -79,3 +79,49 @@ button:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 15px rgba(255, 22, 93, 0.7);
 }
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    font-size: 17px;
+    padding: 14px 8px 14px 50px;
+    position: relative;
+    background: #292929;
+    border-radius: 8px;
+    margin: 10px 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+    color: white;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3), -4px -4px 10px rgba(255, 255, 255, 0.1);
+}
+
+ul li:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+ul li::before {
+    content: '';
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-image: url(images/unchecked-dark.png);
+    background-size: cover;
+    background-position: center;
+}
+
+ul li.checked {
+    color: #d1d1d1;
+    text-decoration: line-through;
+}
+
+ul li.checked::before {
+    background-image: url(images/checked-dark.png);
+}
