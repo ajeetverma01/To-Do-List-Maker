@@ -77,3 +77,8 @@ For any queries or suggestions, connect with me on:
 ---
 
 ⭐ **If you like this project, give it a star on GitHub!** ⭐
+
+---
+
+Made with ❤️ by [Ajeet Verma](https://github.com/ajeetverma01)
+
