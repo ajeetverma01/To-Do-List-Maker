@@ -17,6 +17,12 @@ A **minimalist and dark-themed** To-Do List web application built using HTML, CS
 
 ## 📸 Preview
 
+## 📸 Preview
+
+(Screenshots/a1.png)
+(Screenshots/2.png)
+(Screenshots/a3.png)
+(Screenshots/a4.png)
 
 ---
 
