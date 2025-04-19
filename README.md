@@ -1,4 +1,4 @@
-# 📝 To-Do List
+# 📝 To-Do List using JS
 
 A **minimalist and dark-themed** To-Do List web application built using HTML, CSS, SweetAlert2 and JavaScript. It allows users to add, delete, and mark tasks as completed. The app supports **local storage** to save tasks even after refreshing the page.
 
